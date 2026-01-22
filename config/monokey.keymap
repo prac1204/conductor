@@ -166,10 +166,10 @@
 
         OneHand {
             bindings = <
-&kp BACKSPACE  &kp MINUS  &kp PLUS      &kp ENTER     &kp ENTER              &mkp MB5  &none      &none     &none      &none
-&kp ASTERISK   &kp N9     &kp NUMBER_6  &kp NUMBER_3  &kp PERIOD             &mkp MB4  &mkp LCLK  &mo 5     &mkp RCLK  &none
-&kp SLASH      &kp N8     &kp N5        &kp NUMBER_2  &double_zero           &none     &none      &mkp MB3  &none      &none
-&kp TAB        &kp N7     &kp NUMBER_4  &kp NUMBER_1  &kp N0        &mo 6    &to 0     &mo 5                &none      &none
+&kp BACKSPACE  &kp MINUS  &kp LS(SEMICOLON)  &kp ENTER     &kp ENTER              &mkp MB5  &none      &none     &none      &none
+&kp LS(SQT)    &kp N9     &kp NUMBER_6       &kp NUMBER_3  &kp PERIOD             &mkp MB4  &mkp LCLK  &mo 5     &mkp RCLK  &none
+&kp SLASH      &kp N8     &kp N5             &kp NUMBER_2  &double_zero           &none     &none      &mkp MB3  &none      &none
+&kp TAB        &kp N7     &kp NUMBER_4       &kp NUMBER_1  &kp N0        &mo 6    &to 0     &mo 5                &none      &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
